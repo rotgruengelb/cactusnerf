@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 1,
-  "id": "cactusnerf",
-  "version": "${version}",
-  "name": "CactusNerf",
-  "description": "",
-  "authors": [
-    "rotgruengelb"
-  ],
-  "contact": {
-    "repo": "https://github.com/rotgruengelb/cactusnerf"
-  },
-  "license": "MIT",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.rotgruengelb.cactusnerf.CactusNerf"
-    ]
-  },
-  "mixins": [
-    "cactusnerf.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=0.14.22",
-    "minecraft": "1.20.x",
-    "java": ">=17"
-  }
+	"schemaVersion": 1,
+	"id": "cactusnerf",
+	"version": "${version}",
+	"name": "CactusNerf",
+	"description": "",
+	"authors": [
+		"rotgruengelb"
+	],
+	"contact": {
+		"repo": "https://github.com/rotgruengelb/cactusnerf"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rotgruengelb.cactusnerf.CactusNerf"
+		]
+	},
+	"mixins": [
+		"cactusnerf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "1.19.X",
+		"java": ">=17"
+	},
+	"suggests": {}
 }
